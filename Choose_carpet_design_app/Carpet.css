@@ -1,0 +1,76 @@
+body{
+    background-color: #0a0b5b;
+}
+.wrapper{
+    margin: 10px auto;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid grey;
+    max-width: 800px;
+    padding: 20px;
+    background: linear-gradient(180deg, rgba(17,117,255,1) 10%, rgba(255,255,255,1) 100%);
+    
+}
+h1{
+    color: white;
+}
+.selectorcl  {
+    margin: 10px;
+    padding: 10px;
+    backdrop-filter: blur(5px); 
+    background-color: rgba(255, 255, 255, 0.7); 
+    border-radius: 26px; 
+    box-shadow: 35px 35px 68px 0px rgba(17, 117, 255, 0.5), 
+    inset -8px -8px 16px 0px rgba(17, 117, 255, 0.6),
+    inset 0px 11px 28px 0px rgb(255, 255, 255);
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(17, 117, 255);
+    cursor:pointer
+}
+    #button {
+    border:none;
+    padding: 20px;
+    font-weight: bold;
+    color: rgb(17, 117, 255);
+    align-content: stretch;
+    font-size:large;
+    font-weight: bolder;
+    backdrop-filter: blur(5px); 
+    background-color: rgba(255, 255, 255, 0.7); 
+    border-radius: 26px; 
+    box-shadow: 35px 35px 68px 0px rgba(17, 117, 255, 0.7), 
+    inset -8px -8px 16px 0px rgba(17, 117, 255, 0.6), 
+    inset 0px 11px 28px 0px rgb(255, 255, 255);
+    cursor:pointer
+    }
+    
+#modify {
+    margin: 10px auto;
+    text-align: center;
+    border-radius: 15px;
+    border: 5px solid white;
+    box-shadow: 4px 4px 2px 4px rgba(66, 68, 90, 0.5);
+   }
+#menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 800px;
+    margin: 10px auto;
+    flex-wrap: wrap;
+}
+#property{
+    display: flex;
+    flex-direction: column;
+}
+#property > label{
+    color: white;
+    font-size: large;
+}
+body > div > a{
+   color:#0a0b5b;
+   text-align: left;
+   text-decoration: none;
+   display: block;
+}
