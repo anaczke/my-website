@@ -115,7 +115,7 @@ h4{
   }
 .projects a *{
     margin: 0 20px;
-    max-width: 40%;
+    max-width: 60%;
     align-self: center;
 }
 .projects h4{
@@ -157,7 +157,7 @@ h4{
 footer{
     padding: 30px 20px;
     background-color: #14153d;
-    background-image: url(./assets/footer_image.png);
+    /* background-image: url(./assets/footer_image.png); */
     background-size: 40%;
     background-repeat: no-repeat;
     background-position: top center;
